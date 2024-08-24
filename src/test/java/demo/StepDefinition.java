@@ -15,7 +15,7 @@ public class StepDefinition {
     private WebDriver driver;
 
     @Before
-    public void test() {
+    public void setup() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
